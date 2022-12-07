@@ -1,1 +1,35 @@
-<p>register works!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <section class="image-logo">
+    <img src="assets/images/logo-chinny.png" alt="">
+    <div class="text-login">
+      <p>
+        Diviertete jugando con tus amigos
+      </p>
+      <p class="parrafo-1" >y seres queridos</p>
+    </div>
+  </section>
+  <section class="Section-login-register">
+    <button [routerLink]="['']" class="btn-login">Iniciar Sesión</button>
+    <button class="btn-register">Registrarse</button>
+    <div class="section-inputs">
+      <input class="inputs-name" type="text" placeholder="Nombre">
+      <input class="inputs-lastname" type="text" placeholder="Apellido">
+      <input class="inputs" type="text" placeholder="Correo Electronico">
+      <input class="inputs" type="text" placeholder="Contraseña">
+      <input class="inputs" type="text" placeholder="Confirmar contraseña">
+      <p class="date">Fecha de nacimiento</p>
+      <input class="inputs-DD" type="text" placeholder="DD">
+      <input class="inputs-MM" type="text" placeholder="MM">
+      <input class="inputs-AAAA" type="text" placeholder="AAAA">
+    </div>
+    <button class="btn-enter">Ingresar</button>
+  </section>
+</body>
+</html>

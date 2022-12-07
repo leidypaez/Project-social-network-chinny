@@ -6,7 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <p>trabajando</p>
-  <img src="assets/images/logo-chinny.png" alt="">
+  <section class="image-logo">
+    <img src="assets/images/logo-chinny.png" alt="">
+    <div class="text-login">
+      <p>
+        Diviertete jugando con tus amigos
+      </p>
+      <p class="parrafo-1" >y seres queridos</p>
+    </div>
+  </section>
+  <section class="Section-login-register">
+    <button class="btn-login">Iniciar Sesión</button>
+    <button [routerLink]="['Registrarse']" class="btn-register">Registrarse</button>
+    <div class="section-inputs">
+      <input class="inputs" type="text" placeholder="Correo Electronico">
+      <input class="inputs" type="text" placeholder="Contraseña">
+    </div>
+    <button class="btn-enter">Ingresar</button>
+  </section>
 </body>
 </html>
