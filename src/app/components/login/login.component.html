@@ -15,14 +15,18 @@
       <p class="parrafo-1" >y seres queridos</p>
     </div>
   </section>
+
   <section class="Section-login-register">
+
     <button class="btn-login">Iniciar Sesión</button>
     <button [routerLink]="['Registrarse']" class="btn-register">Registrarse</button>
+
     <div class="section-inputs">
       <input class="inputs" type="text" placeholder="Correo Electronico">
       <input class="inputs" type="text" placeholder="Contraseña">
     </div>
-    <button class="btn-enter">Ingresar</button>
+
+    <button [routerLink]="['Home']" class="btn-enter">Ingresar</button>
   </section>
 </body>
 </html>

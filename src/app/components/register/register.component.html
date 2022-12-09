@@ -18,18 +18,23 @@
   <section class="Section-login-register">
     <button [routerLink]="['']" class="btn-login">Iniciar Sesión</button>
     <button class="btn-register">Registrarse</button>
+
     <div class="section-inputs">
       <input class="inputs-name" type="text" placeholder="Nombre">
       <input class="inputs-lastname" type="text" placeholder="Apellido">
       <input class="inputs" type="text" placeholder="Correo Electronico">
       <input class="inputs" type="text" placeholder="Contraseña">
       <input class="inputs" type="text" placeholder="Confirmar contraseña">
+
       <p class="date">Fecha de nacimiento</p>
+
       <input class="inputs-DD" type="text" placeholder="DD">
       <input class="inputs-MM" type="text" placeholder="MM">
       <input class="inputs-AAAA" type="text" placeholder="AAAA">
+
     </div>
-    <button class="btn-enter">Ingresar</button>
+
+    <button [routerLink]="['']" class="btn-enter">Ingresar</button>
   </section>
 </body>
 </html>
