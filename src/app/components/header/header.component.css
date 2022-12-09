@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #FFF2FD;
+}
+
+header {
+  background: #FFFCFC;
+  box-shadow: 0px 5px 20px 1px rgba(136, 136, 136, 0.25);
+  width: 100%;
+  clear: both;
+  content: '';
+  display: flex;
+}
+
+.icon-logo-chinny img{
+  height: 55px;
+  width: 60px;
+  float: left;
+  padding: 8px;
+}
+
+.menu {
+  width: 1050px;
+  margin: 0 auto;
+}
+
+.icons {
+  width: 35px;
+}
+
+.icons-pricipal {
+  width: 40px;
+}
+
+.icons-play {
+  width: 45px;
+}
+nav {
+  float: right;
+}
+
+nav ul {
+  margin-left: 110px;
+}
+nav ul li {
+  list-style: none;
+  margin-left: 120px;
+  padding: 12px 0;
+  float: left;
+}
+
+.menu-notifications ul li {
+  margin-left: 80px;
+  padding: 12px 0;
+}
+
+.buscador {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.buscador input{
+  width: 200px;
+  height: 35px;
+  padding-left: 50px;
+  border: none;
+  border-radius: 20px;
+  line-height: 17px;
+  font-weight: 700;
+  font-size: 14px;
+  color: rgba(26, 26, 26, 0.25);
+  background: #EDE9E9;
+  border-bottom: 1px solid rgba(224, 157, 255, 0.58);
+}
+
+.buscador img {
+  width: 40px;
+  position: absolute;
+  padding-left: 20px;
+  padding-top: 7px;
+}
+
+
+/* SECCION DEL MAIN */
+
+.portada {
+  width: 1350px;
+  height: 388px;
+  left: 0px;
+  top: 100px;
+  background: linear-gradient(357.99deg, rgba(162, 92, 196, 0.79) 1.8%, rgba(139, 137, 140, 0) 98.42%);
+  border-radius: 0px 0px 20px 20px;
+}
+
+.portada img {
+  margin-left: 50px;
+  width: 1250px;
+  height: 387px;
+}
+
+.perfil {
+  position: absolute;
+}
+.perfil img {
+  position: absolute;
+  width: 300px;
+  height: 215px;
+  left: 460px;
+  bottom: -130px;
+}
