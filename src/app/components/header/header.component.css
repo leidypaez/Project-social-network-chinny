@@ -22,10 +22,11 @@ header {
 }
 
 .icon-logo-chinny img{
-  height: 55px;
-  width: 60px;
+  height: 40px;
+  width: 50px;
   float: left;
-  padding: 8px;
+  margin-top: 15px;
+  margin-left: 40px;
 }
 
 .menu {
@@ -59,13 +60,20 @@ nav ul li {
 }
 
 .menu-notifications ul li {
-  margin-left: 80px;
+  margin-left: 70px;
   padding: 12px 0;
 }
 
 .buscador {
-  margin-left: 10px;
-  margin-top: 10px;
+  margin-left: 1.5%;
+  margin-top: 1.5%;
+}
+
+.buscador img {
+  width: 40px;
+  position: absolute;
+  padding-left: 20px;
+  padding-top: 7px;
 }
 
 .buscador input{
@@ -80,40 +88,4 @@ nav ul li {
   color: rgba(26, 26, 26, 0.25);
   background: #EDE9E9;
   border-bottom: 1px solid rgba(224, 157, 255, 0.58);
-}
-
-.buscador img {
-  width: 40px;
-  position: absolute;
-  padding-left: 20px;
-  padding-top: 7px;
-}
-
-
-/* SECCION DEL MAIN */
-
-.portada {
-  width: 1350px;
-  height: 388px;
-  left: 0px;
-  top: 100px;
-  background: linear-gradient(357.99deg, rgba(162, 92, 196, 0.79) 1.8%, rgba(139, 137, 140, 0) 98.42%);
-  border-radius: 0px 0px 20px 20px;
-}
-
-.portada img {
-  margin-left: 50px;
-  width: 1250px;
-  height: 387px;
-}
-
-.perfil {
-  position: absolute;
-}
-.perfil img {
-  position: absolute;
-  width: 300px;
-  height: 215px;
-  left: 460px;
-  bottom: -130px;
 }
