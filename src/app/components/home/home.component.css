@@ -64,6 +64,7 @@ body {
   height: 48px;
   left: 551px;
   top: 600px;
+  padding-bottom: 20%;
   text-align: center;
   font-family: 'Inter';
   font-style: normal;
@@ -73,5 +74,57 @@ body {
 }
 
 .menu-2 {
+  background-color: #FFF2FD;
+  width: 1335px;
+  height: 100px;
+  margin: 0 auto;
+  float: left;
+  margin-bottom: 3%;
+}
 
+.menu-2 div {
+  margin-left: 110px;
+}
+
+.menu-2 div a {
+  list-style: none;
+  margin-left: 120px;
+  padding: 20px 30px 20px 30px;
+  float: left;
+  font-weight: 800;
+  color: #797676;
+}
+
+.menu-2 div a:hover {
+  color: #FF9DF5;
+}
+
+.linea_1 {
+  position: absolute;
+  width: 1100px;
+  height: 0px;
+  left: -10px;
+  top: 690px;
+
+  border: 1px solid #C8C8C8;
+}
+
+.linea_2 {
+  position: absolute;
+  width: 1100px;
+  height: 0px;
+  left: -10px;
+  top: 730px;
+
+  border: 1px solid #C8C8C8;
+}
+
+.principal {
+  position: absolute;
+  width: 50px;
+  height: 0px;
+  left: 150px;
+  top: 727px;
+  border-bottom: 3px solid #FF9DF5;
+  transform: rotate(0.01deg);
 }
