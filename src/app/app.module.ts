@@ -11,6 +11,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { PublicationsComponent } from './components/publications/publications.component';
 import { EditProfileComponent } from './components/edit-profile/edit-profile.component';
+import { PublicFriendsComponent } from './components/public-friends/public-friends.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { EditProfileComponent } from './components/edit-profile/edit-profile.com
     HeaderComponent,
     FooterComponent,
     PublicationsComponent,
-    EditProfileComponent
+    EditProfileComponent,
+    PublicFriendsComponent
   ],
   imports: [
     BrowserModule,
