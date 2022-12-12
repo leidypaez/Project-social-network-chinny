@@ -16,8 +16,6 @@ header {
   background: #FFFCFC;
   box-shadow: 0px 5px 20px 1px rgba(136, 136, 136, 0.25);
   width: 100%;
-  clear: both;
-  content: '';
   display: flex;
 }
 

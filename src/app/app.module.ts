@@ -12,6 +12,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { PublicationsComponent } from './components/publications/publications.component';
 import { EditProfileComponent } from './components/edit-profile/edit-profile.component';
 import { PublicFriendsComponent } from './components/public-friends/public-friends.component';
+import { OtherPublicsComponent } from './components/other-publics/other-publics.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { PublicFriendsComponent } from './components/public-friends/public-frien
     FooterComponent,
     PublicationsComponent,
     EditProfileComponent,
-    PublicFriendsComponent
+    PublicFriendsComponent,
+    OtherPublicsComponent
   ],
   imports: [
     BrowserModule,

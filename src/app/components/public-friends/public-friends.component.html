@@ -1,12 +1,71 @@
 <app-header></app-header>
-<app-publications></app-publications>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 </head>
 <body>
+	<section class="parallax">
+		<div class="publication">
+			<img src="/assets/images/photo-perfil.png" alt="">
+			<textarea name="text" id="" placeholder="¿Quieres publicar algo?"></textarea>
+			<div class="options">
+				<div class="icons">
+					<img  src="/assets/icons/icon-image.png" alt="">
+					<h1>Subir foto</h1>
+				</div>
+				<div class="icons">
+					<img  src="/assets/icons/icon-camara.png" alt="">
+					<h1>Subir video</h1>
+				</div>
+				<div class="icons">
+					<img src="/assets/icons/icon-reunion.png" alt="">
+					<h1>Crear reunión</h1>
+				</div>
+			</div>
+		</div>
 
+    <!-- PUBLICACIONES -->
+    <section class="section-publications">
+      <nav>
+        <div class="section-data">
+          <img src="/assets/images/photo-perfil.png" alt="">
+          <h1>Nombre usuario</h1>
+          <p>1 septiembre 2022</p>
+          <img class="icon-enlace" src="/assets/icons/icon-flecha-abajo-2.png" alt="">
+        </div>
+      </nav>
+      <div class="section-publication">
+        <p>Disfrutando de este videojuego.</p>
+        <iframe width="550" height="315"
+          src="https://www.youtube.com/embed/IRfU1_I2ch4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <div class="cant-likes">
+        <h1>30 Likes</h1>
+        <div class="line-4"></div>
+      </div>
+      <div class="section-like">
+        <img src="/assets/icons/like.png" alt="">
+        <h1>Like</h1>
+      </div>
+      <div class="section-comment">
+        <h1>Comentar</h1>
+        <img src="/assets/icons/icon-comment.png" alt="">
+      </div>
+      <div class="line-5"></div>
+      <div class="comment">
+        <img src="/assets/images/photo-perfil.png" alt="">
+        <textarea name="" id="" placeholder="¿Que opinas?"></textarea>
+        <img class="icon-enlace" src="/assets/icons/icon-enlace.png" alt="">
+      </div>
+    </section>
+    <app-other-publics></app-other-publics>
+	</section>
 </body>
 </html>
